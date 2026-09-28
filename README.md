@@ -3,37 +3,37 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-09-28 ｜ **208** entries (200 projects + 8 articles) ｜ 25 categories
+> Last updated: 2026-09-29 ｜ **228** entries (220 projects + 8 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 15 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 16 |
 | 2 | Mobile Automation Agents | 6 |
-| 3 | Agent Memory & Knowledge Distillation | 5 |
+| 3 | Agent Memory & Knowledge Distillation | 6 |
 | 4 | Writing & Text-Style Skills | 4 |
 | 5 | Video Creation Skills | 3 |
 | 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 10 |
-| 7 | Security · Audit & Reverse Engineering | 6 |
-| 8 | Skill Collections & Ecosystem | 11 |
+| 7 | Security · Audit & Reverse Engineering | 8 |
+| 8 | Skill Collections & Ecosystem | 12 |
 | 9 | Code Intelligence / RAG / Code Review | 4 |
-| 10 | Speech & TTS | 3 |
+| 10 | Speech & TTS | 4 |
 | 11 | Model Training & Fine-tuning | 5 |
-| 12 | Local Inference Engines & Optimization | 5 |
+| 12 | Local Inference Engines & Optimization | 6 |
 | 13 | Image / Video / Music Generation | 3 |
-| 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 15 |
+| 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 17 |
 | 15 | Content Discovery & Intelligence | 9 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 18 |
-| 17 | System Tools & Desktop Productivity | 21 |
-| 18 | Files · Downloads · Photo Management | 7 |
+| 17 | System Tools & Desktop Productivity | 27 |
+| 18 | Files · Downloads · Photo Management | 8 |
 | 19 | Image Viewers & Media Players | 6 |
 | 20 | AI Desktop Apps | 8 |
 | 21 | Cross-device Tools | 6 |
 | 22 | GIS | 1 |
 | 23 | Articles / AI News | 8 |
-| 24 | Developer Resources & Curated Lists | 18 |
+| 24 | Developer Resources & Curated Lists | 22 |
 | 25 | DevOps / Developer Tools | 11 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (15)
+## 一. AI Coding Agents · Runtimes & Methodologies (16)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -42,6 +42,10 @@ Agent harness system: 68 agents, 292 skills, memory and security scanning in one
 ### [agegr/pi-web](https://github.com/agegr/pi-web)
 `#agent` `#webui` `#nextjs` · 2026-09-06
 Local Web UI workspace for the pi coding agent.
+
+### [agent0ai/agent-zero](https://github.com/agent0ai/agent-zero)
+`#python` · 2026-09-29
+Agent Zero: a general-purpose, self-improving AI agent framework.
 
 ### [anomalyco/opencode](https://github.com/anomalyco/opencode)
 `#coding-agent` `#tui` `#open-source` `#cross-platform` · 2026-09-06
@@ -121,7 +125,7 @@ Multimodal smartphone agent from Tencent (CHI 2025), learns apps by exploration.
 `#agent` `#mobile-automation` `#adb` `#multimodal` · 2026-09-06
 Multimodal phone-control agent from Alibaba X-PLUG, cross-app via ADB.
 
-## 三. Agent Memory & Knowledge Distillation (5)
+## 三. Agent Memory & Knowledge Distillation (6)
 
 ### [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)
 `#agent` `#memory` `#rust` `#cross-tool` `#team-collaboration` · 2026-09-16
@@ -134,6 +138,10 @@ Knowledge-distillation toolkit that turns books and videos into agent skills.
 ### [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill)
 `#skill` `#knowledge-distillation` `#dot-skill` · 2026-09-06
 Distills anyone's digital footprint into a standalone, runnable AI skill (dot-skill).
+
+### [topoteretes/cognee](https://github.com/topoteretes/cognee)
+`#python` · 2026-09-29
+Cognee: the open-source AI memory platform for agents — persistent long-term memory with small models.
 
 ### [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)
 `#agent-memory` `#mcp` `#llm` `#rag` `#python` · 2026-09-25
@@ -217,7 +225,11 @@ A collection of 166 research-oriented agent skills across ~20 scientific domains
 `#skill` `#diagrams` `#architecture-diagrams` `#flowcharts` · 2026-08-29
 Agent skill that turns plain-language descriptions into architecture/flow/sequence diagrams.
 
-## 七. Security · Audit & Reverse Engineering (6)
+## 七. Security · Audit & Reverse Engineering (8)
+
+### [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
+`#python` · 2026-09-29
+HexStrike AI: an advanced MCP server that lets AI agents autonomously run 150+ cybersecurity tools.
 
 ### [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)
 `#security-audit` `#skill` `#cloudflare` `#adversarial-verification` `#sandbox` `#coverage` · 2026-09-23
@@ -231,6 +243,10 @@ Wifite but USB-only & cross-platform.
 `#csharp` · 2026-09-28
 .NET Decompiler with support for PDB generation, ReadyToRun, Metadata (&more) - cross-platform!
 
+### [samugit83/redamon](https://github.com/samugit83/redamon)
+`#python` · 2026-09-29
+An AI-powered agentic red team framework automating offensive security operations end to end.
+
 ### [usestrix/strix](https://github.com/usestrix/strix)
 `#python` · 2026-09-27
 Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
@@ -243,7 +259,7 @@ AI-guided all-in-one penetration-testing toolkit for authorized security testing
 `#skill` `#reverse-engineering` `#security-research` `#ai-agent` `#pentest` · 2026-09-27
 Reverse-engineering and authorized-pentest skill router pack with compliance gating.
 
-## 八. Skill Collections & Ecosystem (11)
+## 八. Skill Collections & Ecosystem (12)
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 `#skill` `#engineering-practice` `#tdd` `#slash-commands` `#claude-code` `#addyosmani` · 2026-09-23
@@ -272,6 +288,10 @@ Skills for Real Engineers.
 ### [microsoft/mcp](https://github.com/microsoft/mcp)
 `#mcp` `#azure` `#microsoft` `#fabric` `#csharp` · 2026-09-25
 Microsoft's official catalog of MCP server implementations (Azure, Fabric, M365...).
+
+### [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt)
+`#python` · 2026-09-29
+A text-space optimizer that trains reusable natural-language skills for frozen LLM agents.
 
 ### [modelcontextprotocol/csharp-sdk](https://github.com/modelcontextprotocol/csharp-sdk)
 `#csharp` · 2026-09-28
@@ -307,7 +327,7 @@ Local code knowledge graph via Tree-sitter: precise context for AI coding (MCP).
 `#rag` `#graph-db` `#code-analysis` `#ast` · 2026-09-06
 Multi-language code knowledge-graph RAG system (Memgraph + Qdrant).
 
-## 十. Speech & TTS (3)
+## 十. Speech & TTS (4)
 
 ### [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
 `#tts` `#asr` `#voice-clone` `#mcp` `#local-first` `#electron` · 2026-09-06
@@ -320,6 +340,10 @@ Low-latency speech-to-speech agent pipeline, OpenAI Realtime compatible.
 ### [k2-fsa/OmniVoice](https://github.com/k2-fsa/OmniVoice)
 `#tts` `#voice-clone` `#multilingual` `#diffusion-model` `#k2-fsa` · 2026-09-23
 SOTA zero-shot multilingual voice-clone TTS supporting 600+ languages (RTF 0.025).
+
+### [openutau/OpenUtau](https://github.com/openutau/OpenUtau)
+`#csharp` · 2026-09-29
+Open singing synthesis platform — the open-source successor of UTAU.
 
 ## 十一. Model Training & Fine-tuning (5)
 
@@ -343,7 +367,11 @@ An Open Source Machine Learning Framework for Everyone
 `#fine-tuning` `#llm` `#local-deployment` `#desktop-app` · 2026-08-29
 All-in-one local LLM run/fine-tune/deploy platform — the first desktop app that both runs and trains models.
 
-## 十二. Local Inference Engines & Optimization (5)
+## 十二. Local Inference Engines & Optimization (6)
+
+### [ashhart/TensorFold](https://github.com/ashhart/TensorFold)
+`#python` · 2026-09-29
+Fast, exact LLM decoding on Apple Silicon (MLX) behind an OpenAI-compatible endpoint.
 
 ### [cactus-compute/needle](https://github.com/cactus-compute/needle)
 `#small-model` `#tool-calling` `#edge-computing` `#structured-extraction` · 2026-08-29
@@ -379,7 +407,7 @@ Modular AI image/video generation WebUI (successor of StableSwarmUI).
 `#music-generation` `#symbolic-planning` `#white-box` `#song-cover` `#apache2` `#huggingface` · 2026-09-23
 YuE: frontier open-source music generation model (symbolic planning, zero-shot cover).
 
-## 十四. AI Infrastructure · Gateways & Self-hosted Platforms (15)
+## 十四. AI Infrastructure · Gateways & Self-hosted Platforms (17)
 
 ### [2dust/v2rayN](https://github.com/2dust/v2rayN)
 `#csharp` · 2026-09-28
@@ -428,6 +456,14 @@ Paperclip — the open-source app everyone uses to manage agents at work.
 ### [PostHog/posthog](https://github.com/PostHog/posthog)
 `#python` · 2026-09-27
 🦔 PostHog is the leading platform for building self-driving products.
+
+### [Rizzo-AI-Academy/rizzo-pii](https://github.com/Rizzo-AI-Academy/rizzo-pii)
+`#python` · 2026-09-29
+Local-first privacy guard: anonymize your documents before sharing with LLMs.
+
+### [smartstore/Smartstore](https://github.com/smartstore/Smartstore)
+`#csharp` · 2026-09-29
+A modular, scalable and ultra-fast open-source all-in-one eCommerce platform on ASP.NET Core 10.
 
 ### [superdesigndev/treg](https://github.com/superdesigndev/treg)
 `#python` · 2026-09-28
@@ -553,11 +589,15 @@ Zero-NuGet-dependency dark WPF control library and frameless-window framework.
 `#wpf` `#theme` `#ui-library` `#dark-mode` `#made-in-china` `#gitee` · 2026-09-26
 A WPF theme control pack that makes theming a programmable runtime API.
 
-## 十七. System Tools & Desktop Productivity (21)
+## 十七. System Tools & Desktop Productivity (27)
 
 ### [babalae/better-genshin-impact](https://github.com/babalae/better-genshin-impact)
 `#csharp` · 2026-09-27
 📦BetterGI · 更好的原神 - 自动拾取 | 自动剧情 | 全自动钓鱼(AI) | 全自动七圣召唤 | 自动伐木 | 自动刷本 | 自动采集/挖矿/锄地 | 一条龙 | 全连音游 | 自动烹饪 | 桌面分身 - UI Automation Testing Tools For Genshin Impact
+
+### [bbepis/XUnity.AutoTranslator](https://github.com/bbepis/XUnity.AutoTranslator)
+`#csharp` · 2026-09-29
+Real-time machine translation plugin for Unity games (XUnity framework).
 
 ### [beeradmoore/dlss-swapper](https://github.com/beeradmoore/dlss-swapper)
 `#csharp` · 2026-09-28
@@ -575,6 +615,10 @@ Modern open-source system cleaner, a CCleaner alternative (WinUI 3).
 `#csharp` · 2026-09-27
 CS2-Bot-Improver is a plugin for Counter-Strike 2 that improves bots' aim, movement, nade throwing, personalities, strategies, etc.
 
+### [gibbed/SteamAchievementManager](https://github.com/gibbed/SteamAchievementManager)
+`#csharp` · 2026-09-29
+A manager for game achievements in Steam.
+
 ### [greenshot/greenshot](https://github.com/greenshot/greenshot)
 `#csharp` · 2026-09-28
 Greenshot for Windows - for more information look here:
@@ -582,6 +626,10 @@ Greenshot for Windows - for more information look here:
 ### [huiyadanli/RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher)
 `#wechat` `#qq` `#tim` `#anti-recall` `#hex-editor` `#windows` · 2026-09-25
 Anti-recall patch for Windows WeChat/QQ/TIM.
+
+### [IgorMundstein/WinMemoryCleaner](https://github.com/IgorMundstein/WinMemoryCleaner)
+`#csharp` · 2026-09-29
+A free, portable and smart RAM cleaner using native Windows memory features.
 
 ### [indiff/qttabbar](https://github.com/indiff/qttabbar)
 `#windows` `#explorer` `#tabs` `#productivity` `#wpf` · 2026-09-23
@@ -619,9 +667,21 @@ macOS-style spacebar quick preview for Windows.
 `#winui3` `#wallpaper` `#animated-wallpaper` `#screensaver` · 2026-09-06
 Animated wallpapers and screensavers for Windows.
 
+### [seerge/g-helper](https://github.com/seerge/g-helper)
+`#csharp` · 2026-09-29
+Lightweight Armoury Crate alternative for Asus laptops (ROG / TUF / Strix and more).
+
+### [ShareX/ShareX](https://github.com/ShareX/ShareX)
+`#csharp` · 2026-09-29
+Capture or record any area of your screen with a single keystroke — upload, edit and OCR included.
+
 ### [snownico0722/PaperTodo](https://github.com/snownico0722/PaperTodo)
 `#notes` `#wpf` `#minimalist` `#desktop-tool` · 2026-08-29
 Minimalist 'single sheet of paper' notes app for Windows, native WPF.
+
+### [srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar)
+`#csharp` · 2026-09-29
+Everything search integration for the Windows taskbar.
 
 ### [TGSAN/CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition)
 `#windows` `#activation-tool` `#digital-license` `#security-warning` · 2026-09-23
@@ -639,7 +699,7 @@ One-click right-click convert & compress on Windows (FFmpeg/ImageMagick).
 `#win11` `#fluent` `#system-tools` `#beautification` `#taskbar` · 2026-09-06
 Modern Fluent flyout replacement for Windows 11.
 
-## 十八. Files · Downloads · Photo Management (7)
+## 十八. Files · Downloads · Photo Management (8)
 
 ### [agalwood/Motrix](https://github.com/agalwood/Motrix)
 `#downloader` `#electron` `#aria2` `#docker` · 2026-08-18
@@ -664,6 +724,10 @@ API Support for your favorite torrent trackers
 ### [julyx10/lap](https://github.com/julyx10/lap)
 `#photo-manager` `#tauri` `#local-first` `#privacy` `#desktop-app` `#vue` · 2026-09-25
 Offline-first cross-platform open-source photo manager — the local, private alternative.
+
+### [mealie-recipes/mealie](https://github.com/mealie-recipes/mealie)
+`#python` · 2026-09-29
+Self-hosted recipe manager and meal planner with a RestAPI backend and Vue frontend.
 
 ### [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr)
 `#csharp` · 2026-09-28
@@ -795,7 +859,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (18)
+## 二十四. Developer Resources & Curated Lists (22)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -816,6 +880,14 @@ Open textbook 'Deep Understanding of AI Agents' (10 chapters, 109 runnable labs)
 ### [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises)
 `#python` · 2026-09-27
 Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualizat
+
+### [byoungd/up](https://github.com/byoungd/up)
+`#javascript` · 2026-09-29
+An advanced personal-growth guide covering AI learning, English learning and more (in Chinese).
+
+### [cs341-illinois/coursebook](https://github.com/cs341-illinois/coursebook)
+`#tex` · 2026-09-29
+Open Source Introductory Systems Programming Textbook for the University of Illinois.
 
 ### [Cysharp/UniTask](https://github.com/Cysharp/UniTask)
 `#csharp` · 2026-09-27
@@ -841,6 +913,10 @@ We're not even close to "Wizden, but random" at this point.
 `#open-source` · 2026-09-28
 Bootstrap Kubernetes the hard way.
 
+### [NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR)
+`#plsql` · 2026-09-29
+Open-source, low-cost 10.5 GHz PLFM phased array RADAR system.
+
 ### [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA)
 `#csharp` · 2026-09-28
 Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and OpenGL.
@@ -848,6 +924,10 @@ Open Source real-time strategy game engine for early Westwood games such as Comm
 ### [ppy/osu](https://github.com/ppy/osu)
 `#csharp` · 2026-09-28
 rhythm is just a click away!
+
+### [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning)
+`#python` · 2026-09-29
+Curated list of project-based programming tutorials.
 
 ### [ProwlEngine/Prowl](https://github.com/ProwlEngine/Prowl)
 `#csharp` · 2026-09-28
