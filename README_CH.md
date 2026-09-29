@@ -3,44 +3,44 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-09-29 ｜ 共收录 **228** 条内容（220 个项目 + 8 篇精选文章）
+> 📅 最后更新：2026-09-30 ｜ 共收录 **245** 条内容（237 个项目 + 8 篇精选文章）
 
 ## 📑 目录索引
 
 | 分区 | 内容说明 | 数量 |
 |-|-|-|
-| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 16 |
+| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 18 |
 | [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 6 |
-| [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 6 |
+| [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 7 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 4 |
 | [五、视频创作 Skills](#sec-5) | 视频理解、对话式剪辑、AI 影视制作管线 | 3 |
 | [六、专业领域 Skills](#sec-6) | 图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK | 10 |
 | [七、安全 · 审计与逆向](#sec-7) | 多阶段安全审计 Skill、逆向工程路由包、渗透测试工具集 | 8 |
-| [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 12 |
-| [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 4 |
+| [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 13 |
+| [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 6 |
 | [十、语音与 TTS](#sec-10) | 低延迟语音流水线、本地语音工作室、零样本多语种语音克隆 | 4 |
 | [十一、模型训练与微调](#sec-11) | 本地训练平台、从零训 LLM 教学、低显存 LoRA 微调 | 5 |
-| [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 6 |
+| [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 7 |
 | [十三、图像 / 视频 / 音乐生成](#sec-13) | 生成 WebUI、扩散模型 C++ 推理、音乐生成模型 | 3 |
-| [十四、AI 基础设施 · 网关与自托管平台](#sec-14) | 多模型路由网关、Agent 专用浏览器、自托管 AI 平台、AIGC SaaS 底座、多智能体编排 | 17 |
+| [十四、AI 基础设施 · 网关与自托管平台](#sec-14) | 多模型路由网关、Agent 专用浏览器、自托管 AI 平台、AIGC SaaS 底座、多智能体编排 | 18 |
 | [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 9 |
 | [十六、WPF / .NET UI 框架与控件库](#sec-16) | 跨平台 .NET UI 框架（Avalonia/MAUI）、WPF Fluent 控件库/主题引擎（wpfui、MahApps、HandyControl、MaterialDesign、ModernWpf 等） | 18 |
 | [十七、系统工具与桌面效率](#sec-17) | 动态壁纸、浮出控件、硬件工具箱、系统清理、便签、快速预览、资源管理器增强、格式转换、防撤回、Linux 桌面 | 27 |
-| [十八、文件 · 下载 · 照片管理](#sec-18) | 现代文件管理器、下载工具、自托管照片库、本地相册 | 8 |
+| [十八、文件 · 下载 · 照片管理](#sec-18) | 现代文件管理器、下载工具、自托管照片库、本地相册 | 11 |
 | [十九、图片查看与媒体播放](#sec-19) | 跨平台图片查看器、Fluent 媒体播放器、语言学习播放器、媒体查重 | 6 |
 | [二十、AI 桌面应用](#sec-20) | 图像转 3D、AI 短视频生成、AI 通知指挥中心、设计转代码、编码 Agent 配额管理 | 8 |
-| [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 6 |
+| [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 7 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 1 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 8 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 22 |
-| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 11 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 25 |
+| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 13 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
 ---
 
 <a id="sec-1"></a>
 
-## 🤖 一、AI 编码 Agent · 运行时与方法论（16）
+## 🤖 一、AI 编码 Agent · 运行时与方法论（18）
 
 编码 Agent 本体、它们的运行时与宿主，以及让 Agent 按工程方法论干活的框架。
 
@@ -87,6 +87,12 @@
 - **归档**：`开源项目介绍/2026.9.27/BMAD-METHOD.md`
 - **标签**：`#ai-agent` `#multi-agent` `#agile` `#methodology` `#workflow` `#context-engineering`
 
+### [bytedance/deer-flow](https://github.com/bytedance/deer-flow)
+- **定位**：字节跳动开源的长程 SuperAgent Harness：会研究、会写码、会创作，配沙箱/记忆/技能/子代理。
+- **简介**：字节跳动开源的长程 SuperAgent Harness：会研究、会写码、会创作，配沙箱/记忆/技能/子代理。（GitHub 每日趋势 2026-09-30：★83220，当日 +79）
+- **归档**：`开源项目介绍/2026.9.30/deer-flow.md`
+- **标签**：`#python`
+
 ### [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates)
 - **定位**：Claude Code 的配置与监控 CLI 工具（含 Agent 仪表盘模板）。
 - **简介**：Claude Code 的配置与监控 CLI 工具（含 Agent 仪表盘模板）。（GitHub 每日趋势 2026-09-26：★31789，当日 +91）
@@ -122,6 +128,12 @@
 - **简介**：把 Claude Code 与 Codex 等多个编码 Agent 作为一个系统协同运行的多智能体 Harness。（GitHub 每日趋势 2026-09-28：★744，当日 +114）
 - **归档**：`开源项目介绍/2026.9.28/openrig.md`
 - **标签**：`#typescript`
+
+### [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell)
+- **定位**：英伟达出品：面向自主 AI Agent 的安全私有运行时。
+- **简介**：英伟达出品：面向自主 AI Agent 的安全私有运行时。（GitHub 每日趋势 2026-09-30：★10312，当日 +978）
+- **归档**：`开源项目介绍/2026.9.30/OpenShell.md`
+- **标签**：`#rust`
 
 ### [obra/superpowers](https://github.com/obra/superpowers)
 - **定位**：为编码智能体提供可组合技能库与完整软件开发方法论的 Agent 技能框架
@@ -184,7 +196,7 @@
 
 <a id="sec-3"></a>
 
-## 🧠 三、Agent 记忆与知识蒸馏（6）
+## 🧠 三、Agent 记忆与知识蒸馏（7）
 
 ### [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)
 - **定位**：AI 编码 Agent 长期记忆 · 跨工具跨机器共享
@@ -197,6 +209,12 @@
 - **简介**：将书籍、视频等深度知识蒸馏为可被 AI 调用的结构化 Skill。采用六阶段知识精馏法，提炼可执行的方法论、决策规则和框架；2.0 版本支持蒸馏视频。**v2.5.0 于 2026 年 8 月底发布**，新增 DeepSeek Harness 支持。包含示例 Skill（如 naval-almanack-skill《纳瓦尔宝典》蒸馏）和基准测试。58 commits，持续活跃更新。
 - **归档**：`开源项目介绍/2026.9.6/cangjie-skill.md`
 - **标签**：`#skill` `#知识蒸馏` `#方法论`
+
+### [mem0ai/mem0](https://github.com/mem0ai/mem0)
+- **定位**：AI Agent 的记忆层：可插拔的记忆基础设施，上下文持久化、面向生产环境。
+- **简介**：AI Agent 的记忆层：可插拔的记忆基础设施，上下文持久化、面向生产环境。（GitHub 每日趋势 2026-09-30：★66314，当日 +119）
+- **归档**：`开源项目介绍/2026.9.30/mem0.md`
+- **标签**：`#python`
 
 ### [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill)
 - **定位**：数字痕迹蒸馏 Skill —— 已升级为 dot-skill，可蒸馏任何人（同事 / 关系 / 名人）
@@ -395,7 +413,7 @@
 
 <a id="sec-8"></a>
 
-## 🧩 八、Skill 合集与生态（12）
+## 🧩 八、Skill 合集与生态（13）
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 - **定位**：面向 AI 编码 Agent 的生产级工程技能（25 skills + 9 斜杠命令）
@@ -458,6 +476,12 @@
 - **归档**：`开源项目介绍/2026.9.28/impeccable.md`
 - **标签**：`#javascript`
 
+### [Q00/ouroboros](https://github.com/Q00/ouroboros)
+- **定位**：Agent OS：Agent 自我变强，人类只守底线——面试门控、分级评估、预算化进化循环，含 MCP 服务器与 14
+- **简介**：Agent OS：Agent 自我变强，人类只守底线——面试门控、分级评估、预算化进化循环，含 MCP 服务器与 14 种运行时。（GitHub 每日趋势 2026-09-30：★6138，当日 +11）
+- **归档**：`开源项目介绍/2026.9.30/ouroboros.md`
+- **标签**：`#python`
+
 ### [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills)
 - **定位**：面向专业编码 Agent 的**安全策展** Skill 注册中心 · 一份技能装到 17 个 Agent
 - **简介**：Tech Leads Club 社区维护的**经安全验证**的 Skill 库与分发工具链。核心切入点是 Skill 生态的安全痛点——引用 Snyk 报告「**开放市场 13.4% 的技能含严重漏洞**」，并用四道防线做差异化：**100% 开源无二进制** · **CI 静态分析** · **锁文件 + 内容哈希** · **Snyk Agent Scan 发布前扫描**。支持三级梯队约 **17 个 Agent**（Claude Code、Cursor、Copilot、Windsurf、Codex、TRAE、Antigravity、Amazon Q 等），`npx @tech-leads-club/agent-skills` 交互向导一键安装。精选技能含 **tlc-spec-driven**（四阶段规格驱动开发，与库里的 github/spec-kit 属同一思路）、aws-advisor、playwright-skill、figma 设计转代码等。附带 **MCP Server** 以**渐进式披露**暴露目录（search → read → fetch），避免上下文膨胀。**协议设计是内容型开源仓库的规范范本**：MIT（代码）+ CC-BY-4.0（官方 SKILL.md 内容），清晰区分「引擎」与「知识内容」的授权边界。TypeScript 100%，**5,770 stars** / 503 forks，2026-01 创建，2026-09-12 最近推送。与库里的 addyosmani/agent-skills（个人工程实践集）互补——**这个卖的是「安全策展 + 多 Agent 分发」**。
@@ -473,7 +497,7 @@
 
 <a id="sec-9"></a>
 
-## 💻 九、代码智能 / RAG / 代码审查（4）
+## 💻 九、代码智能 / RAG / 代码审查（6）
 
 ### [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
 - **定位**：阿里巴巴开源的 AI 代码审查 CLI（确定性工程 × Agent 混合架构）
@@ -487,11 +511,23 @@
 - **归档**：`开源项目介绍/2026.9.28/langextract.md`
 - **标签**：`#python`
 
+### [t8y2/dbx](https://github.com/t8y2/dbx)
+- **定位**：25 MB 的轻量跨平台数据库客户端，支持 100+ 种数据库（MySQL/PostgreSQL/SQLite/Redi
+- **简介**：25 MB 的轻量跨平台数据库客户端，支持 100+ 种数据库（MySQL/PostgreSQL/SQLite/Redis/MongoDB 等）。（GitHub 每日趋势 2026-09-30：★21810，当日 +349）
+- **归档**：`开源项目介绍/2026.9.30/dbx.md`
+- **标签**：`#rust`
+
 ### [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph)
 - **定位**：本地代码知识图谱 · AI 编码精准上下文
 - **简介**：用 Tree-sitter 将代码库解析为结构图（函数/类/导入为节点，调用/继承/测试覆盖为边），增量跟踪变更，通过 MCP 给 AI 助手提供精准上下文，让它「只读该读的部分」。以 Flask 代码库为例：全文读取 143,594 tokens → 图谱查询 2,196 tokens，减少 **71 倍**。一条命令自动接入 **15+ AI 编码工具**（Codex、Claude Code、Cursor、Windsurf、Zed、Continue、OpenCode、Antigravity、Gemini CLI、Copilot 等），支持 Git/SVN 钩子、GitHub Action、对称卸载。MIT 协议，1,000 commits，5 种语言 README。
 - **归档**：`开源项目介绍/2026.9.6/code-review-graph.md`
 - **标签**：`#mcp` `#tree-sitter` `#token优化` `#代码审查`
+
+### [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)
+- **定位**：PageIndex：面向无向量、基于推理的 RAG 的文档索引。
+- **简介**：PageIndex：面向无向量、基于推理的 RAG 的文档索引。（GitHub 每日趋势 2026-09-30：★37071，当日 +822）
+- **归档**：`开源项目介绍/2026.9.30/PageIndex.md`
+- **标签**：`#python`
 
 ### [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag)
 - **定位**：多语言代码知识图谱 RAG 系统
@@ -566,7 +602,7 @@
 
 <a id="sec-12"></a>
 
-## ⚡ 十二、本地推理引擎与优化（6）
+## ⚡ 十二、本地推理引擎与优化（7）
 
 ### [ashhart/TensorFold](https://github.com/ashhart/TensorFold)
 - **定位**：Apple Silicon（MLX）上的快速精确 LLM 解码引擎，对外提供 OpenAI 兼容接口。
@@ -605,6 +641,12 @@
 - **归档**：`开源项目介绍/2026.9.25/modeloptimizer.md`
 - **标签**：`#quantization` `#nvfp4` `#inference` `#pruning` `#pytorch`
 
+### [SemiAnalysisAI/InferenceX](https://github.com/SemiAnalysisAI/InferenceX)
+- **定位**：开源推理研究平台标准。
+- **简介**：开源推理研究平台标准。（GitHub 每日趋势 2026-09-30：★1785，当日 +8）
+- **归档**：`开源项目介绍/2026.9.30/InferenceX.md`
+- **标签**：`#python`
+
 <a id="sec-13"></a>
 
 ## 🎨 十三、图像 / 视频 / 音乐生成（3）
@@ -630,7 +672,7 @@
 
 <a id="sec-14"></a>
 
-## 🏗️ 十四、AI 基础设施 · 网关与自托管平台（17）
+## 🏗️ 十四、AI 基础设施 · 网关与自托管平台（18）
 
 ### [2dust/v2rayN](https://github.com/2dust/v2rayN)
 - **定位**：跨平台代理 GUI 客户端（Windows/Linux/macOS），支持 Xray、sing-box 等内核。
@@ -679,6 +721,12 @@
 - **简介**：微软的 LLM 应用集成框架（Semantic Kernel）：快速把大模型接入 .NET/Python 应用。（GitHub 每日趋势 2026-09-26：★28603，当日 +8）
 - **归档**：`开源项目介绍/2026.9.28/semantic-kernel.md`
 - **标签**：`#csharp`
+
+### [oblien/openship](https://github.com/oblien/openship)
+- **定位**：自托管部署平台。
+- **简介**：自托管部署平台。（GitHub 每日趋势 2026-09-30：★13699，当日 +436）
+- **归档**：`开源项目介绍/2026.9.30/openship.md`
+- **标签**：`#typescript`
 
 ### [open-webui/open-webui](https://github.com/open-webui/open-webui)
 - **定位**：自托管 AI 平台 · 全功能 WebUI
@@ -1078,13 +1126,19 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-18"></a>
 
-## 📁 十八、文件 · 下载 · 照片管理（8）
+## 📁 十八、文件 · 下载 · 照片管理（11）
 
 ### [agalwood/Motrix](https://github.com/agalwood/Motrix)
 - **定位**：现代化全功能开源下载管理器（Motrix Turbo v2）
 - **简介**：支持 HTTP/FTP/BitTorrent/磁力链接的桌面下载管理器。v2（Motrix Turbo）用 Electron + React + TypeScript 从零重构，下载核心与 UI 独立。双形态运行：桌面应用（macOS/Windows/Linux）+ 无头服务器（Docker，带 Web UI，适合 NAS）。核心特性：BT 逐文件选择、tracker 自动更新与健康检查、UPnP/NAT-PMP 端口映射、SQLite 会话恢复、QuickJS 插件沙箱与插件市场、Chrome/Firefox 扩展一键接管下载、官方 CLI（@motrix/cli，适合 AI Agent 调用）、device-code 配对远程实例。生态协议 MDXP（基于 JSON-RPC 2.0）。技术栈：Electron 43 + React 19 + Tailwind + aria2 内核 + Fastify。
 - **归档**：`开源项目介绍/2026.8.18/Motrix.md`
 - **标签**：`#下载工具` `#electron` `#aria2` `#docker`
+
+### [averygan/reclip](https://github.com/averygan/reclip)
+- **定位**：几乎可从任何网站下载视频：轻量自托管媒体下载器，带清爽的 Web UI。
+- **简介**：几乎可从任何网站下载视频：轻量自托管媒体下载器，带清爽的 Web UI。（GitHub 每日趋势 2026-09-30：★9935，当日 +114）
+- **归档**：`开源项目介绍/2026.9.30/reclip.md`
+- **标签**：`#html`
 
 ### [duplicati/duplicati](https://github.com/duplicati/duplicati)
 - **定位**：加密云备份工具，支持多种存储后端与增量去重。
@@ -1123,10 +1177,22 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.9.29/mealie.md`
 - **标签**：`#python`
 
+### [SirDiabo/GithubLauncher](https://github.com/SirDiabo/GithubLauncher)
+- **定位**：从 GitHub Releases 下载并自动更新应用的启动器。
+- **简介**：从 GitHub Releases 下载并自动更新应用的启动器。（GitHub 每日趋势 2026-09-30：★1650，当日 +9）
+- **归档**：`开源项目介绍/2026.9.30/GithubLauncher.md`
+- **标签**：`#csharp`
+
 ### [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr)
 - **定位**：智能追剧管理器（PVR）：自动跟踪、搜索、下载新剧集。
 - **简介**：智能追剧管理器（PVR）：自动跟踪、搜索、下载新剧集。（GitHub 每日趋势 2026-09-28：★16597，当日 +32）
 - **归档**：`开源项目介绍/2026.9.28/Sonarr.md`
+- **标签**：`#csharp`
+
+### [tgeorgiadis/quiver-launcher](https://github.com/tgeorgiadis/quiver-launcher)
+- **定位**：现代化启动器：从 GitHub/GitLab Releases 下载、安装、运行应用，带个人库与社区目录订阅。
+- **简介**：现代化启动器：从 GitHub/GitLab Releases 下载、安装、运行应用，带个人库与社区目录订阅。（GitHub 每日趋势 2026-09-30：★967，当日 +450）
+- **归档**：`开源项目介绍/2026.9.30/quiver-launcher.md`
 - **标签**：`#csharp`
 
 <a id="sec-19"></a>
@@ -1223,7 +1289,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-21"></a>
 
-## 🔗 二十一、跨设备工具（6）
+## 🔗 二十一、跨设备工具（7）
 
 ### [InfinityLoop1308/PipePipe](https://github.com/InfinityLoop1308/PipePipe)
 - **定位**：开源 Android 应用，自由浏览 YouTube 等服务的第三方客户端（NewPipe 的活跃维护分支）。
@@ -1236,6 +1302,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：**最大差异点是控制端可以是浏览器**——被控电脑装好 CrossDesk 并保持「已连接服务器」，控制端直接打开 [web.crossdesk.cn](https://web.crossdesk.cn/) 输入设备 ID 和密码就能连，**无需安装任何客户端，手机平板也能用**。被控端支持 Windows 10+ x64（`.exe` 安装包，**便携构建也支持**）/ macOS 14.0+（Intel 与 Apple Silicon 各自的 `.pkg`）/ Linux Ubuntu 20.04+（amd64 与 arm64，**glibc 2.31 基线**）的 `.deb`；控制端另有 Win/macOS/Linux 桌面互控与**原生 iOS 客户端**（iOS 16+ 真机，需 Xcode 构建签名，CI 产物未签名）。基于作者自研的 **[MiniRTC](https://github.com/kunkundi/minirtc)**，iOS 端与桌面端共用同一套协议。能力面：H.264 / AV1 编码、30/60 fps、硬件编解码选项、远端声音播放、多设备与远端显示器切换、键鼠输入与光标同步、组合键、文本剪贴板同步、文件传输（带进度）、会话内实时查看流量/丢包率/帧率/分辨率及**直连或中继状态**。网络层支持 **P2P 直连 + TURN 中继 + SRTP 加密**，且**信令与中继都可自托管**（Compose 部署，配套 [crossdesk-server](https://github.com/kunkundi/crossdesk-server) 与 [crossdesk-web-client](https://github.com/kunkundi/crossdesk-web-client) 两个仓库，两端需启用同一套配置）。**Windows 锁屏控制是个硬功夫**：`CrossDesk Service`（服务名 `CrossDeskService`）支持锁屏、登录界面、凭据输入及**安全桌面**的状态上报、`Ctrl+Alt+Del` 发送与键鼠转发；安装版注册按需启动的服务且**本机无客户端进程后自动退出**，便携版需管理员权限手动装，命令行提供 `--service-install/start/status/ping/stop/uninstall`。另内置 Amyuni **USB Mobile Monitor 虚拟显示器驱动**（`usbmmidd_v2`，未作修改）解决**无显示器主机**的问题。iOS 端只能作控制端、不能作被控端；鼠标有相对位置（触控板式）与绝对位置（触摸直接映射）两种模式，手势支持单指点击/双指右键/长按拖动/捏合缩放。技术栈 **C++ + Slint 桌面 UI + xmake 构建**，音视频走 WebRTC / libdatachannel / RTP / KCP，另有 SDL3 与 imgui。**官方 Windows 发布包由 SignPath.io 提供代码签名**（证书来自 SignPath Foundation）。⚠️ 两个坑：**默认分支是 `p2p-enhancement` 而非 main**；macOS 首次运行必须在「隐私与安全性」授予**屏幕录制**（新系统叫「屏幕与系统音频录制」）与**辅助功能**两项权限。GPL-3.0，**4,305 stars** / 407 forks / 仅 15 open issues，2023-11 创建，2026-09-22 仍在推送，官网 [crossdesk.cn](https://www.crossdesk.cn/)，曾获 HelloGitHub、阮一峰科技爱好者周刊与 LinuxDo 推荐。
 - **归档**：`开源项目介绍/2026.9.23/crossdesk.md`
 - **标签**：`#远程桌面` `#跨平台` `#webrtc` `#self-hosted` `#c++` `#web客户端`
+
+### [mRemoteNG/mRemoteNG](https://github.com/mRemoteNG/mRemoteNG)
+- **定位**：mRemote 的下一代：开源多标签、多协议远程连接管理器。
+- **简介**：mRemote 的下一代：开源多标签、多协议远程连接管理器。（GitHub 每日趋势 2026-09-30：★11134，当日 +4）
+- **归档**：`开源项目介绍/2026.9.30/mRemoteNG.md`
+- **标签**：`#csharp`
 
 ### [nefarius/DsHidMini](https://github.com/nefarius/DsHidMini)
 - **定位**：索尼手柄的虚拟 HID 用户态驱动。
@@ -1326,7 +1398,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（22）
+## 📚 二十四、开发者资源 / 精选合集（25）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -1400,11 +1472,29 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.9.28/Goob-Station.md`
 - **标签**：`#csharp`
 
+### [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book)
+- **定位**：哈佛 CS249r 教材《机器学习系统》四卷本：基础、规模化、Agentic AI 与物理 AI。
+- **简介**：哈佛 CS249r 教材《机器学习系统》四卷本：基础、规模化、Agentic AI 与物理 AI。（GitHub 每日趋势 2026-09-30：★28715，当日 +62）
+- **归档**：`开源项目介绍/2026.9.30/cs249r_book.md`
+- **标签**：`#python`
+
 ### [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 - **定位**：Kelsey Hightower 的经典教程：纯手工从零引导 Kubernetes，不用脚本、理解每一步。
 - **简介**：Kelsey Hightower 的经典教程：纯手工从零引导 Kubernetes，不用脚本、理解每一步。（GitHub 每日趋势 2026-09-26：★50056，当日 +105）
 - **归档**：`开源项目介绍/2026.9.28/kubernetes-the-hard-way.md`
 - **标签**：`#开源`
+
+### [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)
+- **定位**：本地运行的 AI 求职框架（基于 Claude Code）：评估职位、定制简历、写求职信、准备面试。
+- **简介**：本地运行的 AI 求职框架（基于 Claude Code）：评估职位、定制简历、写求职信、准备面试。（GitHub 每日趋势 2026-09-30：★44450，当日 +138）
+- **归档**：`开源项目介绍/2026.9.30/ai-job-search.md`
+- **标签**：`#python`
+
+### [MikuLeaks/MikuSB](https://github.com/MikuLeaks/MikuSB)
+- **定位**：开源 C#/.NET 研究服务器模拟器，用于本地协议与网络实验。
+- **简介**：开源 C#/.NET 研究服务器模拟器，用于本地协议与网络实验。（GitHub 每日趋势 2026-09-30：★729，当日 +7）
+- **归档**：`开源项目介绍/2026.9.30/MikuSB.md`
+- **标签**：`#csharp`
 
 ### [NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR)
 - **定位**：开源低成本 10.5 GHz PLFM 相控阵雷达系统，硬件方案全部开放。
@@ -1462,7 +1552,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-25"></a>
 
-## 🚀 二十五、DevOps / 开发者工具（11）
+## 🚀 二十五、DevOps / 开发者工具（13）
 
 ### [actions/runner](https://github.com/actions/runner)
 - **定位**：GitHub Actions 作业执行器（自托管 Runner）
@@ -1476,6 +1566,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **关联**：库内 [actions/runner](https://github.com/actions/runner)（执行器本体，本仓库是其托管镜像定义）
 - **归档**：`开源项目介绍/2026.9.27/runner-images.md`
 - **标签**：`#github-actions` `#cicd` `#runner-images` `#devops` `#packer`
+
+### [dotnet/eShop](https://github.com/dotnet/eShop)
+- **定位**：微软官方 .NET 参考应用：完整电商站点实现。
+- **简介**：微软官方 .NET 参考应用：完整电商站点实现。（GitHub 每日趋势 2026-09-30：★10914，当日 +1）
+- **归档**：`开源项目介绍/2026.9.30/eShop.md`
+- **标签**：`#csharp`
 
 ### [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager)
 - **定位**：微软维护的跨平台 Git 凭据管理器，支持 GitHub/Azure/Bitbucket 等认证。
@@ -1518,6 +1614,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：**OpenBao** 是 HashiCorp Vault 的开源分叉，MPL-2.0 协议，官网 openbao.org，主语言 Go。**分叉背景**：2023 年 8 月 HashiCorp 将 Vault 从 MPL-2.0 转为 BUSL-1.1 非开源许可，社区随即于 2023-11-09 基于 Vault 的 MPL 版本代码建立分叉；**治理方**为 Linux 基金会旗下开源安全基金会（OpenSSF），由技术指导委员会（TSC）及 namespaces、PKCS#11、scalability、supply、UI 等专项工作组按开放治理原则运作，承诺以 OSI 认可的开源许可持续演进，漏洞走 openbao-security@lists.openssf.org 负责任披露。核心能力：安全密钥存储（key/value 加密后落盘，支持磁盘与 PostgreSQL 后端）、动态密钥（为 AWS/SQL 按需签发临时凭证，租约到期自动吊销）、数据加密即服务（Transit 只加解密不存储）、租约续期、单密钥或整棵密钥树吊销、cert/kubernetes/userpass 等多种认证与插件化引擎生态。**v2.7.0 新亮点 External Keys**：PKI 与 Transit 引擎可经 /sys/external-keys 映射 HSM/KMS 托管密钥（含 PKCS#11 的 kms-pkcs11 插件）完成签名与加解密，密钥材料不落入 OpenBao 本体。技术栈：Go Modules 构建单一 bao 二进制，与 Vault API 高度兼容（请求头仍为 X-Vault-Request）；主仓含 Web UI 与官网文档子树，另发布 api/v2、sdk/v2 两个可导入库，但官方明确不支持将主仓整体作为 Go 库导入。规模数据：Stars 约 **7,998**、Forks 590、开放 issue 327、贡献者 **374**、commits 约 21,150（含继承自 Vault 的历史）、tags 215。时间线：创建 2023-11-09，最近推送 2026-09-24；**v2.7.0 与维护版 v2.6.3 于 2026-09-23 同日发布，均含多项安全修复**（agent/proxy quit 端点 X-Vault-Request 头校验 GHSA-8gmq-wv9h-fcwp、路径规范化 GHSA-fg5x-7whg-6c28、插件目录逃逸 GHSA-j6wc-jpvg-xfxq），旧版本用户应尽快升级。注意事项：提 PR 前必须阅读 CONTRIBUTING.md，否则大概率被拒；项目持 OpenSSF Scorecard 与 Best Practices 认证。
 - **归档**：`开源项目介绍/2026.9.27/openbao.md`
 - **标签**：`#secret-management` `#security` `#go` `#devops` `#vault-fork`
+
+### [rakyll/hey](https://github.com/rakyll/hey)
+- **定位**：HTTP 压测工具，ApacheBench (ab) 的现代替代品。
+- **简介**：HTTP 压测工具，ApacheBench (ab) 的现代替代品。（GitHub 每日趋势 2026-09-30：★20425，当日 +31）
+- **归档**：`开源项目介绍/2026.9.30/hey.md`
+- **标签**：`#go`
 
 ### [sourcegit-scm/sourcegit](https://github.com/sourcegit-scm/sourcegit)
 - **定位**：开源跨平台 Git GUI 客户端（Win / macOS / Linux）

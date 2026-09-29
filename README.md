@@ -3,37 +3,37 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-09-29 ｜ **228** entries (220 projects + 8 articles) ｜ 25 categories
+> Last updated: 2026-09-30 ｜ **245** entries (237 projects + 8 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 16 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 18 |
 | 2 | Mobile Automation Agents | 6 |
-| 3 | Agent Memory & Knowledge Distillation | 6 |
+| 3 | Agent Memory & Knowledge Distillation | 7 |
 | 4 | Writing & Text-Style Skills | 4 |
 | 5 | Video Creation Skills | 3 |
 | 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 10 |
 | 7 | Security · Audit & Reverse Engineering | 8 |
-| 8 | Skill Collections & Ecosystem | 12 |
-| 9 | Code Intelligence / RAG / Code Review | 4 |
+| 8 | Skill Collections & Ecosystem | 13 |
+| 9 | Code Intelligence / RAG / Code Review | 6 |
 | 10 | Speech & TTS | 4 |
 | 11 | Model Training & Fine-tuning | 5 |
-| 12 | Local Inference Engines & Optimization | 6 |
+| 12 | Local Inference Engines & Optimization | 7 |
 | 13 | Image / Video / Music Generation | 3 |
-| 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 17 |
+| 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 18 |
 | 15 | Content Discovery & Intelligence | 9 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 18 |
 | 17 | System Tools & Desktop Productivity | 27 |
-| 18 | Files · Downloads · Photo Management | 8 |
+| 18 | Files · Downloads · Photo Management | 11 |
 | 19 | Image Viewers & Media Players | 6 |
 | 20 | AI Desktop Apps | 8 |
-| 21 | Cross-device Tools | 6 |
+| 21 | Cross-device Tools | 7 |
 | 22 | GIS | 1 |
 | 23 | Articles / AI News | 8 |
-| 24 | Developer Resources & Curated Lists | 22 |
-| 25 | DevOps / Developer Tools | 11 |
+| 24 | Developer Resources & Curated Lists | 25 |
+| 25 | DevOps / Developer Tools | 13 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (16)
+## 一. AI Coding Agents · Runtimes & Methodologies (18)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -63,6 +63,10 @@ Anthropic's official GitHub Action integrating Claude Code into workflows (PR re
 `#ai-agent` `#multi-agent` `#agile` `#methodology` `#workflow` `#context-engineering` · 2026-09-27
 BMAD-METHOD: multi-agent agile AI development methodology with expert personas.
 
+### [bytedance/deer-flow](https://github.com/bytedance/deer-flow)
+`#python` · 2026-09-30
+An open-source long-horizon SuperAgent harness that researches, codes and creates (by ByteDance).
+
 ### [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates)
 `#python` · 2026-09-28
 CLI tool for configuring and monitoring Claude Code
@@ -86,6 +90,10 @@ Google's open agentic orchestration runtime
 ### [mvschwarz/openrig](https://github.com/mvschwarz/openrig)
 `#typescript` · 2026-09-28
 Multi-agent harness that runs Claude Code and Codex together as one system
+
+### [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell)
+`#rust` · 2026-09-30
+NVIDIA OpenShell: the safe, private runtime for autonomous AI agents.
 
 ### [obra/superpowers](https://github.com/obra/superpowers)
 `#agent-skill` `#sdd` `#tdd` `#claude-code` `#methodology` `#plugin` · 2026-09-25
@@ -125,7 +133,7 @@ Multimodal smartphone agent from Tencent (CHI 2025), learns apps by exploration.
 `#agent` `#mobile-automation` `#adb` `#multimodal` · 2026-09-06
 Multimodal phone-control agent from Alibaba X-PLUG, cross-app via ADB.
 
-## 三. Agent Memory & Knowledge Distillation (6)
+## 三. Agent Memory & Knowledge Distillation (7)
 
 ### [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)
 `#agent` `#memory` `#rust` `#cross-tool` `#team-collaboration` · 2026-09-16
@@ -134,6 +142,10 @@ Long-term memory for 20+ coding agents, shared across tools and machines.
 ### [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill)
 `#skill` `#knowledge-distillation` `#methodology` · 2026-09-06
 Knowledge-distillation toolkit that turns books and videos into agent skills.
+
+### [mem0ai/mem0](https://github.com/mem0ai/mem0)
+`#python` · 2026-09-30
+Mem0: the memory layer for AI agents — drop-in, persistent memory infrastructure built for production.
 
 ### [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill)
 `#skill` `#knowledge-distillation` `#dot-skill` · 2026-09-06
@@ -259,7 +271,7 @@ AI-guided all-in-one penetration-testing toolkit for authorized security testing
 `#skill` `#reverse-engineering` `#security-research` `#ai-agent` `#pentest` · 2026-09-27
 Reverse-engineering and authorized-pentest skill router pack with compliance gating.
 
-## 八. Skill Collections & Ecosystem (12)
+## 八. Skill Collections & Ecosystem (13)
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 `#skill` `#engineering-practice` `#tdd` `#slash-commands` `#claude-code` `#addyosmani` · 2026-09-23
@@ -301,6 +313,10 @@ The official C# SDK for Model Context Protocol servers and clients.
 `#javascript` · 2026-09-28
 The design language that makes your AI harness better at design.
 
+### [Q00/ouroboros](https://github.com/Q00/ouroboros)
+`#python` · 2026-09-30
+Agent OS: the agent gets smarter on its own — interview-gated, staged evaluation, budgeted evolution loop.
+
 ### [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills)
 `#skill` `#registry` `#security-scanning` `#mcp` `#typescript` · 2026-09-23
 Security-vetted skill registry for professional coding agents (one skill, 17 agents).
@@ -309,7 +325,7 @@ Security-vetted skill registry for professional coding agents (one skill, 17 age
 `#claude-code` `#ai-agent` `#subagents` `#skill` `#mcp` · 2026-09-27
 Multi-harness agentic plugin marketplace: 94 plugins, 202 subagents, 7 host platforms.
 
-## 九. Code Intelligence / RAG / Code Review (4)
+## 九. Code Intelligence / RAG / Code Review (6)
 
 ### [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
 `#code-review` `#alibaba` `#go` `#hybrid-architecture` `#line-level-comments` `#benchmark` · 2026-09-23
@@ -319,9 +335,17 @@ Alibaba's AI code-review CLI: deterministic engineering × agent hybrid, line-le
 `#python` · 2026-09-28
 A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.
 
+### [t8y2/dbx](https://github.com/t8y2/dbx)
+`#rust` · 2026-09-30
+A 25MB lightweight cross-platform database client supporting 100+ databases.
+
 ### [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph)
 `#mcp` `#tree-sitter` `#token-optimization` `#code-review` · 2026-09-06
 Local code knowledge graph via Tree-sitter: precise context for AI coding (MCP).
+
+### [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)
+`#python` · 2026-09-30
+PageIndex: document index for vectorless, reasoning-based RAG.
 
 ### [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag)
 `#rag` `#graph-db` `#code-analysis` `#ast` · 2026-09-06
@@ -367,7 +391,7 @@ An Open Source Machine Learning Framework for Everyone
 `#fine-tuning` `#llm` `#local-deployment` `#desktop-app` · 2026-08-29
 All-in-one local LLM run/fine-tune/deploy platform — the first desktop app that both runs and trains models.
 
-## 十二. Local Inference Engines & Optimization (6)
+## 十二. Local Inference Engines & Optimization (7)
 
 ### [ashhart/TensorFold](https://github.com/ashhart/TensorFold)
 `#python` · 2026-09-29
@@ -393,6 +417,10 @@ A local inference engine that benchmarks your machine first, then tells you what
 `#quantization` `#nvfp4` `#inference` `#pruning` `#pytorch` · 2026-09-25
 NVIDIA's model-optimizer library: quantization, pruning, distillation, speculative decoding.
 
+### [SemiAnalysisAI/InferenceX](https://github.com/SemiAnalysisAI/InferenceX)
+`#python` · 2026-09-30
+An open-source inference research platform standard.
+
 ## 十三. Image / Video / Music Generation (3)
 
 ### [leejet/stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp)
@@ -407,7 +435,7 @@ Modular AI image/video generation WebUI (successor of StableSwarmUI).
 `#music-generation` `#symbolic-planning` `#white-box` `#song-cover` `#apache2` `#huggingface` · 2026-09-23
 YuE: frontier open-source music generation model (symbolic planning, zero-shot cover).
 
-## 十四. AI Infrastructure · Gateways & Self-hosted Platforms (17)
+## 十四. AI Infrastructure · Gateways & Self-hosted Platforms (18)
 
 ### [2dust/v2rayN](https://github.com/2dust/v2rayN)
 `#csharp` · 2026-09-28
@@ -440,6 +468,10 @@ Multi-tenant AIGC SaaS platform — a production base for AI apps.
 ### [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)
 `#csharp` · 2026-09-28
 Integrate cutting-edge LLM technology quickly and easily into your apps
+
+### [oblien/openship](https://github.com/oblien/openship)
+`#typescript` · 2026-09-30
+Self-hosted deployment platform.
 
 ### [open-webui/open-webui](https://github.com/open-webui/open-webui)
 `#self-hosted` `#webui` `#multi-model` `#rag` `#mcp` · 2026-09-16
@@ -699,11 +731,15 @@ One-click right-click convert & compress on Windows (FFmpeg/ImageMagick).
 `#win11` `#fluent` `#system-tools` `#beautification` `#taskbar` · 2026-09-06
 Modern Fluent flyout replacement for Windows 11.
 
-## 十八. Files · Downloads · Photo Management (8)
+## 十八. Files · Downloads · Photo Management (11)
 
 ### [agalwood/Motrix](https://github.com/agalwood/Motrix)
 `#downloader` `#electron` `#aria2` `#docker` · 2026-08-18
 Modern full-featured open-source download manager (Motrix Turbo v2).
+
+### [averygan/reclip](https://github.com/averygan/reclip)
+`#html` · 2026-09-30
+Download videos from almost any website — lightweight self-hosted media downloader with a clean web UI.
 
 ### [duplicati/duplicati](https://github.com/duplicati/duplicati)
 `#csharp` · 2026-09-27
@@ -729,9 +765,17 @@ Offline-first cross-platform open-source photo manager — the local, private al
 `#python` · 2026-09-29
 Self-hosted recipe manager and meal planner with a RestAPI backend and Vue frontend.
 
+### [SirDiabo/GithubLauncher](https://github.com/SirDiabo/GithubLauncher)
+`#csharp` · 2026-09-30
+A launcher that downloads and updates applications from GitHub Releases.
+
 ### [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr)
 `#csharp` · 2026-09-28
 Smart PVR for newsgroup and bittorrent users.
+
+### [tgeorgiadis/quiver-launcher](https://github.com/tgeorgiadis/quiver-launcher)
+`#csharp` · 2026-09-30
+A modern launcher for downloading, installing and running apps from GitHub/GitLab releases.
 
 ## 十九. Image Viewers & Media Players (6)
 
@@ -793,7 +837,7 @@ Local open-source image-to-3D mesh desktop app.
 `#python` · 2026-09-28
 🪄 Data Formulator is an interactive AI-powered data analysis system makes it easy to connect, explore and visualize data.
 
-## 二十一. Cross-device Tools (6)
+## 二十一. Cross-device Tools (7)
 
 ### [InfinityLoop1308/PipePipe](https://github.com/InfinityLoop1308/PipePipe)
 `#shell` · 2026-09-28
@@ -802,6 +846,10 @@ An open-source Android app to let you browse YouTube and other services freely.
 ### [kunkundi/crossdesk](https://github.com/kunkundi/crossdesk)
 `#remote-desktop` `#cross-platform` `#webrtc` `#self-hosted` `#c++` `#web-client` · 2026-09-23
 Lightweight cross-platform remote desktop: PC, browser and iPhone on one desktop.
+
+### [mRemoteNG/mRemoteNG](https://github.com/mRemoteNG/mRemoteNG)
+`#csharp` · 2026-09-30
+The next generation of mRemote: open-source, tabbed, multi-protocol remote connections manager.
 
 ### [nefarius/DsHidMini](https://github.com/nefarius/DsHidMini)
 `#csharp` · 2026-09-27
@@ -859,7 +907,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (22)
+## 二十四. Developer Resources & Curated Lists (25)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -909,9 +957,21 @@ Industrial prompt engine and template library for GPT-Image (544 reverse-enginee
 `#csharp` · 2026-09-28
 We're not even close to "Wizden, but random" at this point.
 
+### [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book)
+`#python` · 2026-09-30
+Harvard CS249r textbook 'Machine Learning Systems' (4 volumes: foundations, scaling, agentic & physical AI).
+
 ### [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 `#open-source` · 2026-09-28
 Bootstrap Kubernetes the hard way.
+
+### [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)
+`#python` · 2026-09-30
+The job search that runs on your machine: AI job-application framework built on Claude Code.
+
+### [MikuLeaks/MikuSB](https://github.com/MikuLeaks/MikuSB)
+`#csharp` · 2026-09-30
+An open-source C#/.NET research server emulator for local protocol and networking experimentation.
 
 ### [NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR)
 `#plsql` · 2026-09-29
@@ -949,7 +1009,7 @@ Learn it.
 `#javascript` · 2026-09-27
 The React Framework
 
-## 二十五. DevOps / Developer Tools (11)
+## 二十五. DevOps / Developer Tools (13)
 
 ### [actions/runner](https://github.com/actions/runner)
 `#cicd` `#github-actions` `#self-hosted` `#devops` `#official` · 2026-09-23
@@ -958,6 +1018,10 @@ The self-hosted runner for GitHub Actions jobs.
 ### [actions/runner-images](https://github.com/actions/runner-images)
 `#github-actions` `#cicd` `#runner-images` `#devops` `#packer` · 2026-09-27
 VM image definitions and build scripts for GitHub-hosted runners.
+
+### [dotnet/eShop](https://github.com/dotnet/eShop)
+`#csharp` · 2026-09-30
+A reference .NET application implementing an eCommerce site (by Microsoft).
 
 ### [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager)
 `#csharp` · 2026-09-28
@@ -986,6 +1050,10 @@ This repository contains set of components extending functionality of the OpenTe
 ### [openbao/openbao](https://github.com/openbao/openbao)
 `#secret-management` `#security` `#go` `#devops` `#vault-fork` · 2026-09-27
 OpenSSF-governed fork of HashiCorp Vault: secrets, certificates and keys management.
+
+### [rakyll/hey](https://github.com/rakyll/hey)
+`#go` · 2026-09-30
+HTTP load generator, a modern ApacheBench (ab) replacement.
 
 ### [sourcegit-scm/sourcegit](https://github.com/sourcegit-scm/sourcegit)
 `#git` `#gui` `#cross-platform` `#avalonia` `#devops` `#dev-tools` · 2026-09-23
