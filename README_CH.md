@@ -3,36 +3,36 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-01 ｜ 共收录 **273** 条内容（265 个项目 + 8 篇精选文章）
+> 📅 最后更新：2026-10-02 ｜ 共收录 **289** 条内容（281 个项目 + 8 篇精选文章）
 
 ## 📑 目录索引
 
 | 分区 | 内容说明 | 数量 |
 |-|-|-|
-| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 21 |
+| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 22 |
 | [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 6 |
 | [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 7 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
 | [五、视频创作 Skills](#sec-5) | 视频理解、对话式剪辑、AI 影视制作管线 | 4 |
-| [六、专业领域 Skills](#sec-6) | 图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK | 12 |
-| [七、安全 · 审计与逆向](#sec-7) | 多阶段安全审计 Skill、逆向工程路由包、渗透测试工具集 | 10 |
-| [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 18 |
+| [六、专业领域 Skills](#sec-6) | 图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK | 13 |
+| [七、安全 · 审计与逆向](#sec-7) | 多阶段安全审计 Skill、逆向工程路由包、渗透测试工具集 | 11 |
+| [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 21 |
 | [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 8 |
 | [十、语音与 TTS](#sec-10) | 低延迟语音流水线、本地语音工作室、零样本多语种语音克隆 | 4 |
 | [十一、模型训练与微调](#sec-11) | 本地训练平台、从零训 LLM 教学、低显存 LoRA 微调 | 5 |
-| [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 7 |
-| [十三、图像 / 视频 / 音乐生成](#sec-13) | 生成 WebUI、扩散模型 C++ 推理、音乐生成模型 | 3 |
+| [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 9 |
+| [十三、图像 / 视频 / 音乐生成](#sec-13) | 生成 WebUI、扩散模型 C++ 推理、音乐生成模型 | 4 |
 | [十四、AI 基础设施 · 网关与自托管平台](#sec-14) | 多模型路由网关、Agent 专用浏览器、自托管 AI 平台、AIGC SaaS 底座、多智能体编排 | 19 |
 | [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 10 |
 | [十六、WPF / .NET UI 框架与控件库](#sec-16) | 跨平台 .NET UI 框架（Avalonia/MAUI）、WPF Fluent 控件库/主题引擎（wpfui、MahApps、HandyControl、MaterialDesign、ModernWpf 等） | 19 |
-| [十七、系统工具与桌面效率](#sec-17) | 动态壁纸、浮出控件、硬件工具箱、系统清理、便签、快速预览、资源管理器增强、格式转换、防撤回、Linux 桌面 | 30 |
-| [十八、文件 · 下载 · 照片管理](#sec-18) | 现代文件管理器、下载工具、自托管照片库、本地相册 | 12 |
+| [十七、系统工具与桌面效率](#sec-17) | 动态壁纸、浮出控件、硬件工具箱、系统清理、便签、快速预览、资源管理器增强、格式转换、防撤回、Linux 桌面 | 33 |
+| [十八、文件 · 下载 · 照片管理](#sec-18) | 现代文件管理器、下载工具、自托管照片库、本地相册 | 14 |
 | [十九、图片查看与媒体播放](#sec-19) | 跨平台图片查看器、Fluent 媒体播放器、语言学习播放器、媒体查重 | 6 |
 | [二十、AI 桌面应用](#sec-20) | 图像转 3D、AI 短视频生成、AI 通知指挥中心、设计转代码、编码 Agent 配额管理 | 8 |
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 8 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 1 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 8 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 26 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 28 |
 | [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 16 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
@@ -40,7 +40,7 @@
 
 <a id="sec-1"></a>
 
-## 🤖 一、AI 编码 Agent · 运行时与方法论（21）
+## 🤖 一、AI 编码 Agent · 运行时与方法论（22）
 
 编码 Agent 本体、它们的运行时与宿主，以及让 Agent 按工程方法论干活的框架。
 
@@ -152,6 +152,12 @@
 - **简介**：真正能干活的 AI，任意系统任意平台——龙虾之道（基于 pi 框架的明星项目）。（GitHub 每日趋势 2026-10-01：★390908，当日 +136）
 - **归档**：`开源项目介绍/2026.10.1/openclaw.md`
 - **标签**：`#typescript`
+
+### [openclaw/openclaw-windows-node](https://github.com/openclaw/openclaw-windows-node)
+- **定位**：OpenClaw 的 Windows 伴侣套件。
+- **简介**：OpenClaw 的 Windows 伴侣套件。（GitHub 每日趋势 2026-10-02：★2133，当日 +2）
+- **归档**：`开源项目介绍/2026.10.2/openclaw-windows-node.md`
+- **标签**：`#csharp`
 
 ### [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)
 - **定位**：Python 的 AI 之道：Agent、实时语音、图像生成、嵌入——任意模型、任意接口、端到端类型安全。
@@ -324,7 +330,7 @@
 
 <a id="sec-6"></a>
 
-## 🧰 六、专业领域 Skills（12）
+## 🧰 六、专业领域 Skills（13）
 
 ### [anthropics/financial-services](https://github.com/anthropics/financial-services)
 - **定位**：Anthropic 面向金融服务行业的官方示例与参考实现集合。
@@ -388,6 +394,12 @@
 - **归档**：`开源项目介绍/2026.9.6/scientific-agent-skills.md`（2026-09-23 已复核更新）
 - **标签**：`#skill` `#科研` `#生物信息` `#药物发现` `#多领域`
 
+### [mcneel/RhinoAI](https://github.com/mcneel/RhinoAI)
+- **定位**：Rhino（犀牛）3D 的 AI 功能插件。
+- **简介**：Rhino（犀牛）3D 的 AI 功能插件。（GitHub 每日趋势 2026-10-02：★335，当日 +5）
+- **归档**：`开源项目介绍/2026.10.2/RhinoAI.md`
+- **标签**：`#csharp`
+
 ### [Perfare/AssetStudio](https://github.com/Perfare/AssetStudio)
 - **定位**：探索、提取和导出 Unity 资产与 AssetBundle 的工具。
 - **简介**：探索、提取和导出 Unity 资产与 AssetBundle 的工具。（GitHub 每日趋势 2026-10-01：★15599，当日 +0）
@@ -402,7 +414,7 @@
 
 <a id="sec-7"></a>
 
-## 🔐 七、安全 · 审计与逆向（10）
+## 🔐 七、安全 · 审计与逆向（11）
 
 ### [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
 - **定位**：HexStrike AI：高级 MCP 服务器，让 Claude/GPT/Copilot 等 AI Agent 自主调度
@@ -420,6 +432,12 @@
 - **定位**：仅 USB、跨平台版的 Wifite 无线安全测试工具。
 - **简介**：仅 USB、跨平台版的 Wifite 无线安全测试工具。（GitHub 每日趋势 2026-09-26：★1118，当日 +409）
 - **归档**：`开源项目介绍/2026.9.27/wifit3.md`
+- **标签**：`#python`
+
+### [elder-plinius/OBLITERATUS](https://github.com/elder-plinius/OBLITERATUS)
+- **定位**：挣脱束缚你的枷锁（Pliny 逆向工程的越狱工具集）。
+- **简介**：挣脱束缚你的枷锁（Pliny 逆向工程的越狱工具集）。（GitHub 每日趋势 2026-10-02：★8551，当日 +23）
+- **归档**：`开源项目介绍/2026.10.2/OBLITERATUS.md`
 - **标签**：`#python`
 
 ### [icsharpcode/ILSpy](https://github.com/icsharpcode/ILSpy)
@@ -467,7 +485,7 @@
 
 <a id="sec-8"></a>
 
-## 🧩 八、Skill 合集与生态（18）
+## 🧩 八、Skill 合集与生态（21）
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 - **定位**：面向 AI 编码 Agent 的生产级工程技能（25 skills + 9 斜杠命令）
@@ -512,11 +530,29 @@
 - **归档**：`开源项目介绍/2026.10.1/awesome-claude-skills.md`
 - **标签**：`#python`
 
+### [cursor/plugins](https://github.com/cursor/plugins)
+- **定位**：Cursor 插件规范与官方插件合集。
+- **简介**：Cursor 插件规范与官方插件合集。（GitHub 每日趋势 2026-10-02：★9281，当日 +157）
+- **归档**：`开源项目介绍/2026.10.2/plugins.md`
+- **标签**：`#typescript`
+
 ### [dotnet/skills](https://github.com/dotnet/skills)
 - **定位**：.NET 官方的 AI 编码技能（skills）仓库。
 - **简介**：.NET 官方的 AI 编码技能（skills）仓库。（GitHub 每日趋势 2026-09-26：★5485，当日 +5）
 - **归档**：`开源项目介绍/2026.9.27/skills.md`
 - **标签**：`#csharp`
+
+### [google/skills](https://github.com/google/skills)
+- **定位**：面向 Google 产品与技术的 Agent Skills 官方仓库。
+- **简介**：面向 Google 产品与技术的 Agent Skills 官方仓库。（GitHub 每日趋势 2026-10-02：★20557，当日 +33）
+- **归档**：`开源项目介绍/2026.10.2/skills.md`
+- **标签**：`#python`
+
+### [hashgraph-online/awesome-codex-plugins](https://github.com/hashgraph-online/awesome-codex-plugins)
+- **定位**：精选的 OpenAI Codex / ChatGPT 插件、技能与资源合集（#1 Codex 市场）。
+- **简介**：精选的 OpenAI Codex / ChatGPT 插件、技能与资源合集（#1 Codex 市场）。（GitHub 每日趋势 2026-10-02：★1135，当日 +19）
+- **归档**：`开源项目介绍/2026.10.2/awesome-codex-plugins.md`
+- **标签**：`#python`
 
 ### [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi)
 - **定位**：AI Agent 的独立审计：人类或 Agent 自己运行，回答 Agent 经济中最关键的问题——这件事 Agent
@@ -698,7 +734,7 @@
 
 <a id="sec-12"></a>
 
-## ⚡ 十二、本地推理引擎与优化（7）
+## ⚡ 十二、本地推理引擎与优化（9）
 
 ### [ashhart/TensorFold](https://github.com/ashhart/TensorFold)
 - **定位**：Apple Silicon（MLX）上的快速精确 LLM 解码引擎，对外提供 OpenAI 兼容接口。
@@ -743,9 +779,27 @@
 - **归档**：`开源项目介绍/2026.9.30/InferenceX.md`
 - **标签**：`#python`
 
+### [sgl-project/sglang](https://github.com/sgl-project/sglang)
+- **定位**：SGLang：面向大模型与多模态模型的高性能推理服务框架。
+- **简介**：SGLang：面向大模型与多模态模型的高性能推理服务框架。（GitHub 每日趋势 2026-10-02：★36697，当日 +39）
+- **归档**：`开源项目介绍/2026.10.2/sglang.md`
+- **标签**：`#python`
+
+### [tile-ai/tilelang](https://github.com/tile-ai/tilelang)
+- **定位**：面向 GPU/CPU/加速器高性能算子开发的领域专用语言（DSL）。
+- **简介**：面向 GPU/CPU/加速器高性能算子开发的领域专用语言（DSL）。（GitHub 每日趋势 2026-10-02：★8036，当日 +157）
+- **归档**：`开源项目介绍/2026.10.2/tilelang.md`
+- **标签**：`#python`
+
 <a id="sec-13"></a>
 
-## 🎨 十三、图像 / 视频 / 音乐生成（3）
+## 🎨 十三、图像 / 视频 / 音乐生成（4）
+
+### [Friedrich-M/UniMate](https://github.com/Friedrich-M/UniMate)
+- **定位**：SIGGRAPH Asia 2026 论文：一个统一模型驱动多种骨架动画。
+- **简介**：SIGGRAPH Asia 2026 论文：一个统一模型驱动多种骨架动画。（GitHub 每日趋势 2026-10-02：★1010，当日 +225）
+- **归档**：`开源项目介绍/2026.10.2/UniMate.md`
+- **标签**：`#python`
 
 ### [leejet/stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp)
 - **定位**：基于 ggml 的纯 C/C++ 扩散模型本地推理引擎，图像视频生成界的 llama.cpp
@@ -1074,7 +1128,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-17"></a>
 
-## 🛠️ 十七、系统工具与桌面效率（30）
+## 🛠️ 十七、系统工具与桌面效率（33）
 
 ### [babalae/better-genshin-impact](https://github.com/babalae/better-genshin-impact)
 - **定位**：原神自动化辅助工具：自动拾取、自动剧情、全自动钓鱼等。
@@ -1160,6 +1214,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.9.27/Wand-Enhancer.md`
 - **标签**：`#csharp`
 
+### [lostindark/DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer)
+- **定位**：驱动存储资源管理器：查看、删除、备份 Windows 驱动。
+- **简介**：驱动存储资源管理器：查看、删除、备份 Windows 驱动。（GitHub 每日趋势 2026-10-02：★11757，当日 +3）
+- **归档**：`开源项目介绍/2026.10.2/DriverStoreExplorer.md`
+- **标签**：`#csharp`
+
 ### [luolangaga/tubatools](https://github.com/luolangaga/tubatools)
 - **定位**：图吧工具箱 CE · WinUI 3 / .NET 10 现代化重构版（47 内置 + 89 收录工具）
 - **简介**：经典「图吧工具箱」的 WinUI 3 现代化重构版，解决原版在 UTF-8 全球语言支持下的中文乱码问题。一站式硬件检测与工具集合启动器，覆盖处理器、显卡、内存、硬盘、屏幕、整机稳定性等检测方向。**🔄 2026-09-23 复核更新**：**4,221 stars** / 114 forks / 59 open issues，commits **391 → 498**，最新 **v1.6.4**（2026-09-19，共 25 个 release），2026-05-25 建仓、2026-09-22 仍在推送。**技术栈已从 WPF + .NET 8 升级为 WinUI 3 / .NET 10**，协议确认为 **GPL-3.0**，官方定名「**图吧工具箱 CE**」。**工具规模明确为 47 款内置 Fluent 工具 + 89 款收录第三方工具**，并新增三块重量级能力：**AI 助手**（28 个 Agent 工具、完全访问模式、**跨会话记忆**、可接任意 OpenAI 兼容端点）、**游戏工具箱**（监控覆盖层 / Tailscale 联机 / 运行库修复）、**双引擎格式转换**。⚠️ **架构支持修正**：发布二进制为 **x64 / ARM64（含 Lite 版）**，源码构建支持 x86/x64/ARM64，README 标注 **x86 完全支持**（此前记录的「移除 x86」不准确）。分发渠道扩至 **winget / Scoop / Microsoft Store / GitCode 镜像**，获 **AtomGit G-Star 毕业认证（No.0614）**，采用 **SignPath.io 代码签名**。
@@ -1188,6 +1248,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **定位**：录制屏幕选定区域、编辑并保存为 GIF 或视频。
 - **简介**：录制屏幕选定区域、编辑并保存为 GIF 或视频。（GitHub 每日趋势 2026-10-01：★27723，当日 +8）
 - **归档**：`开源项目介绍/2026.10.1/ScreenToGif.md`
+- **标签**：`#csharp`
+
+### [nomi-san/parsec-vdd](https://github.com/nomi-san/parsec-vdd)
+- **定位**：完美的虚拟显示器方案，适合游戏串流。
+- **简介**：完美的虚拟显示器方案，适合游戏串流。（GitHub 每日趋势 2026-10-02：★5596，当日 +16）
+- **归档**：`开源项目介绍/2026.10.2/parsec-vdd.md`
 - **标签**：`#csharp`
 
 ### [omacom/omarchy](https://github.com/omacom/omarchy)
@@ -1238,6 +1304,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.9.23/CMWTAT_Digital_Edition.md`
 - **标签**：`#windows` `#激活工具` `#数字权利` `#安全警告`
 
+### [thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe)
+- **定位**：使用 Windows 10 2004+ 新特性控制 API 的 C# 库与命令行工具。
+- **简介**：使用 Windows 10 2004+ 新特性控制 API 的 C# 库与命令行工具。（GitHub 每日趋势 2026-10-02：★7782，当日 +9）
+- **归档**：`开源项目介绍/2026.10.2/ViVe.md`
+- **标签**：`#csharp`
+
 ### [Tianyu199509/DeskBox](https://github.com/Tianyu199509/DeskBox)
 - **定位**：免费开源的 Windows 桌面整理工具，原生质感的 WinUI 3 小组件。
 - **简介**：免费开源的 Windows 桌面整理工具，原生质感的 WinUI 3 小组件。（GitHub 每日趋势 2026-09-28：★5595，当日 +179）
@@ -1258,7 +1330,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-18"></a>
 
-## 📁 十八、文件 · 下载 · 照片管理（12）
+## 📁 十八、文件 · 下载 · 照片管理（14）
 
 ### [agalwood/Motrix](https://github.com/agalwood/Motrix)
 - **定位**：现代化全功能开源下载管理器（Motrix Turbo v2）
@@ -1309,6 +1381,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.9.29/mealie.md`
 - **标签**：`#python`
 
+### [pablostanley/yoinks](https://github.com/pablostanley/yoinks)
+- **定位**：从终端抓取任意视频，无广告、无套路。
+- **简介**：从终端抓取任意视频，无广告、无套路。（GitHub 每日趋势 2026-10-02：★2783，当日 +356）
+- **归档**：`开源项目介绍/2026.10.2/yoinks.md`
+- **标签**：`#typescript`
+
 ### [qbittorrent/search-plugins](https://github.com/qbittorrent/search-plugins)
 - **定位**：qBittorrent 搜索功能的搜索插件合集。
 - **简介**：qBittorrent 搜索功能的搜索插件合集。（GitHub 每日趋势 2026-10-01：★7044，当日 +174）
@@ -1325,6 +1403,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **定位**：智能追剧管理器（PVR）：自动跟踪、搜索、下载新剧集。
 - **简介**：智能追剧管理器（PVR）：自动跟踪、搜索、下载新剧集。（GitHub 每日趋势 2026-09-28：★16597，当日 +32）
 - **归档**：`开源项目介绍/2026.9.28/Sonarr.md`
+- **标签**：`#csharp`
+
+### [SteamRE/DepotDownloader](https://github.com/SteamRE/DepotDownloader)
+- **定位**：基于 SteamKit2 的 Steam 仓库（Depot）下载器。
+- **简介**：基于 SteamKit2 的 Steam 仓库（Depot）下载器。（GitHub 每日趋势 2026-10-02：★3423，当日 +5）
+- **归档**：`开源项目介绍/2026.10.2/DepotDownloader.md`
 - **标签**：`#csharp`
 
 ### [tgeorgiadis/quiver-launcher](https://github.com/tgeorgiadis/quiver-launcher)
@@ -1542,7 +1626,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（26）
+## 📚 二十四、开发者资源 / 精选合集（28）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -1628,6 +1712,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.9.30/cs249r_book.md`
 - **标签**：`#python`
 
+### [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture)
+- **定位**：ASP.NET Core 的 Clean Architecture 解决方案模板（经典版）。
+- **简介**：ASP.NET Core 的 Clean Architecture 解决方案模板（经典版）。（GitHub 每日趋势 2026-10-02：★20619，当日 +10）
+- **归档**：`开源项目介绍/2026.10.2/CleanArchitecture.md`
+- **标签**：`#csharp`
+
 ### [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 - **定位**：Kelsey Hightower 的经典教程：纯手工从零引导 Kubernetes，不用脚本、理解每一步。
 - **简介**：Kelsey Hightower 的经典教程：纯手工从零引导 Kubernetes，不用脚本、理解每一步。（GitHub 每日趋势 2026-09-26：★50056，当日 +105）
@@ -1692,6 +1782,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **定位**：从零动手构建 AI 工程核心组件的教学项目：自己实现、自己上线、边造边学。
 - **简介**：从零动手构建 AI 工程核心组件的教学项目：自己实现、自己上线、边造边学。（GitHub 每日趋势 2026-09-26：★58074，当日 +828）
 - **归档**：`开源项目介绍/2026.9.27/ai-engineering-from-scratch.md`
+- **标签**：`#python`
+
+### [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
+- **定位**：100+ AI Agent、Agent Skills 与 RAG 应用合集——免费开源。
+- **简介**：100+ AI Agent、Agent Skills 与 RAG 应用合集——免费开源。（GitHub 每日趋势 2026-10-02：★140496，当日 +139）
+- **归档**：`开源项目介绍/2026.10.2/awesome-llm-apps.md`
 - **标签**：`#python`
 
 ### [vercel/next.js](https://github.com/vercel/next.js)

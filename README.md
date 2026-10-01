@@ -3,37 +3,37 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-01 ｜ **273** entries (265 projects + 8 articles) ｜ 25 categories
+> Last updated: 2026-10-02 ｜ **289** entries (281 projects + 8 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 21 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 22 |
 | 2 | Mobile Automation Agents | 6 |
 | 3 | Agent Memory & Knowledge Distillation | 7 |
 | 4 | Writing & Text-Style Skills | 5 |
 | 5 | Video Creation Skills | 4 |
-| 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 12 |
-| 7 | Security · Audit & Reverse Engineering | 10 |
-| 8 | Skill Collections & Ecosystem | 18 |
+| 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 13 |
+| 7 | Security · Audit & Reverse Engineering | 11 |
+| 8 | Skill Collections & Ecosystem | 21 |
 | 9 | Code Intelligence / RAG / Code Review | 8 |
 | 10 | Speech & TTS | 4 |
 | 11 | Model Training & Fine-tuning | 5 |
-| 12 | Local Inference Engines & Optimization | 7 |
-| 13 | Image / Video / Music Generation | 3 |
+| 12 | Local Inference Engines & Optimization | 9 |
+| 13 | Image / Video / Music Generation | 4 |
 | 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 19 |
 | 15 | Content Discovery & Intelligence | 10 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 19 |
-| 17 | System Tools & Desktop Productivity | 30 |
-| 18 | Files · Downloads · Photo Management | 12 |
+| 17 | System Tools & Desktop Productivity | 33 |
+| 18 | Files · Downloads · Photo Management | 14 |
 | 19 | Image Viewers & Media Players | 6 |
 | 20 | AI Desktop Apps | 8 |
 | 21 | Cross-device Tools | 8 |
 | 22 | GIS | 1 |
 | 23 | Articles / AI News | 8 |
-| 24 | Developer Resources & Curated Lists | 26 |
+| 24 | Developer Resources & Curated Lists | 28 |
 | 25 | DevOps / Developer Tools | 16 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (21)
+## 一. AI Coding Agents · Runtimes & Methodologies (22)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -106,6 +106,10 @@ Composable skill library and full software methodology for coding agents (TDD, S
 ### [openclaw/openclaw](https://github.com/openclaw/openclaw)
 `#typescript` · 2026-10-01
 OpenClaw: the AI that really does things, on any OS and any platform — the lobster way.
+
+### [openclaw/openclaw-windows-node](https://github.com/openclaw/openclaw-windows-node)
+`#csharp` · 2026-10-02
+The Windows companion suite for OpenClaw.
 
 ### [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)
 `#python` · 2026-10-01
@@ -215,7 +219,7 @@ Hyperframes: write HTML, render video — built for agents (by HeyGen).
 `#ai-video` `#production-pipeline` `#skill` `#storyboarding` `#depth-capture` `#gitee` · 2026-09-22
 AI film-making pipeline: give a topic, get a finished short film.
 
-## 六. Domain Skills (Diagrams / CAD / Research / Patents / Office) (12)
+## 六. Domain Skills (Diagrams / CAD / Research / Patents / Office) (13)
 
 ### [anthropics/financial-services](https://github.com/anthropics/financial-services)
 `#python` · 2026-09-28
@@ -257,6 +261,10 @@ AI Skills, MCP Tools and CLI for the Unity Engine — a full AI develop-and-test
 `#skill` `#research` `#bioinformatics` `#drug-discovery` `#multi-domain` · 2026-09-06
 A collection of 166 research-oriented agent skills across ~20 scientific domains.
 
+### [mcneel/RhinoAI](https://github.com/mcneel/RhinoAI)
+`#csharp` · 2026-10-02
+AI features for Rhino 3D.
+
 ### [Perfare/AssetStudio](https://github.com/Perfare/AssetStudio)
 `#csharp` · 2026-10-01
 A tool for exploring, extracting and exporting Unity assets and AssetBundles.
@@ -265,7 +273,7 @@ A tool for exploring, extracting and exporting Unity assets and AssetBundles.
 `#skill` `#diagrams` `#architecture-diagrams` `#flowcharts` · 2026-08-29
 Agent skill that turns plain-language descriptions into architecture/flow/sequence diagrams.
 
-## 七. Security · Audit & Reverse Engineering (10)
+## 七. Security · Audit & Reverse Engineering (11)
 
 ### [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
 `#python` · 2026-09-29
@@ -278,6 +286,10 @@ Cloudflare's multi-stage security-audit skill with adversarial verification.
 ### [derv82/wifit3](https://github.com/derv82/wifit3)
 `#python` · 2026-09-27
 Wifite but USB-only & cross-platform.
+
+### [elder-plinius/OBLITERATUS](https://github.com/elder-plinius/OBLITERATUS)
+`#python` · 2026-10-02
+OBLITERATE THE CHAINS THAT BIND YOU (Pliny's jailbreak toolkit).
 
 ### [icsharpcode/ILSpy](https://github.com/icsharpcode/ILSpy)
 `#csharp` · 2026-09-28
@@ -307,7 +319,7 @@ AI-guided all-in-one penetration-testing toolkit for authorized security testing
 `#skill` `#reverse-engineering` `#security-research` `#ai-agent` `#pentest` · 2026-09-27
 Reverse-engineering and authorized-pentest skill router pack with compliance gating.
 
-## 八. Skill Collections & Ecosystem (18)
+## 八. Skill Collections & Ecosystem (21)
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 `#skill` `#engineering-practice` `#tdd` `#slash-commands` `#claude-code` `#addyosmani` · 2026-09-23
@@ -337,9 +349,21 @@ Official AWS-supported MCP servers, skills and plugins to help AI agents build o
 `#python` · 2026-10-01
 A curated list of awesome Claude Skills, resources and tools for customizing Claude AI workflows.
 
+### [cursor/plugins](https://github.com/cursor/plugins)
+`#typescript` · 2026-10-02
+Cursor plugin specification and official plugins.
+
 ### [dotnet/skills](https://github.com/dotnet/skills)
 `#csharp` · 2026-09-27
 Repository for skills to assist AI coding agents with .NET and C#
+
+### [google/skills](https://github.com/google/skills)
+`#python` · 2026-10-02
+Agent Skills for Google products and technologies.
+
+### [hashgraph-online/awesome-codex-plugins](https://github.com/hashgraph-online/awesome-codex-plugins)
+`#python` · 2026-10-02
+A curated list of awesome OpenAI Codex / ChatGPT plugins, skills and resources.
 
 ### [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi)
 `#python` · 2026-10-01
@@ -455,7 +479,7 @@ An Open Source Machine Learning Framework for Everyone
 `#fine-tuning` `#llm` `#local-deployment` `#desktop-app` · 2026-08-29
 All-in-one local LLM run/fine-tune/deploy platform — the first desktop app that both runs and trains models.
 
-## 十二. Local Inference Engines & Optimization (7)
+## 十二. Local Inference Engines & Optimization (9)
 
 ### [ashhart/TensorFold](https://github.com/ashhart/TensorFold)
 `#python` · 2026-09-29
@@ -485,7 +509,19 @@ NVIDIA's model-optimizer library: quantization, pruning, distillation, speculati
 `#python` · 2026-09-30
 An open-source inference research platform standard.
 
-## 十三. Image / Video / Music Generation (3)
+### [sgl-project/sglang](https://github.com/sgl-project/sglang)
+`#python` · 2026-10-02
+SGLang: a high-performance serving framework for large language and multimodal models.
+
+### [tile-ai/tilelang](https://github.com/tile-ai/tilelang)
+`#python` · 2026-10-02
+A domain-specific language for high-performance GPU/CPU/Accelerator kernel development.
+
+## 十三. Image / Video / Music Generation (4)
+
+### [Friedrich-M/UniMate](https://github.com/Friedrich-M/UniMate)
+`#python` · 2026-10-02
+UniMate (SIGGRAPH Asia 2026): one unified model to animate diverse skeletons.
 
 ### [leejet/stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp)
 `#diffusion` `#ggml` `#cpp` `#image-generation` `#video-generation` `#quantization` · 2026-09-25
@@ -697,7 +733,7 @@ Zero-NuGet-dependency dark WPF control library and frameless-window framework.
 `#wpf` `#theme` `#ui-library` `#dark-mode` `#made-in-china` `#gitee` · 2026-09-26
 A WPF theme control pack that makes theming a programmable runtime API.
 
-## 十七. System Tools & Desktop Productivity (30)
+## 十七. System Tools & Desktop Productivity (33)
 
 ### [babalae/better-genshin-impact](https://github.com/babalae/better-genshin-impact)
 `#csharp` · 2026-09-27
@@ -755,6 +791,10 @@ A free, open-source Windows optimization tool for performance, privacy and simpl
 `#csharp` · 2026-09-27
 Advanced UX and interoperability extension for Wand (WeMod) app
 
+### [lostindark/DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer)
+`#csharp` · 2026-10-02
+Driver Store Explorer: view, delete and back up Windows drivers.
+
 ### [luolangaga/tubatools](https://github.com/luolangaga/tubatools)
 `#hardware-detection` `#winui3` `#tuba` `#dotnet10` `#ai-assistant` · 2026-09-06
 Modern WinUI 3 / .NET 10 rewrite of the classic hardware toolbox (47 built-in + 89 curated tools).
@@ -774,6 +814,10 @@ Application designed to optimize, customize and enhance your Windows experience.
 ### [NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif)
 `#csharp` · 2026-10-01
 ScreenToGif: record a selected area of your screen, edit and save it as a GIF or video.
+
+### [nomi-san/parsec-vdd](https://github.com/nomi-san/parsec-vdd)
+`#csharp` · 2026-10-02
+A perfect virtual display for game streaming (Parsec VDD).
 
 ### [omacom/omarchy](https://github.com/omacom/omarchy)
 `#linux` `#arch` `#desktop-os` `#agent-native` `#dhh` `#neovim` · 2026-09-23
@@ -807,6 +851,10 @@ Everything search integration for the Windows taskbar.
 `#windows` `#activation-tool` `#digital-license` `#security-warning` · 2026-09-23
 Windows 10/11 digital-license activation tool.
 
+### [thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe)
+`#csharp` · 2026-10-02
+A C# library and console app for Windows 10 2004+ feature-control APIs.
+
 ### [Tianyu199509/DeskBox](https://github.com/Tianyu199509/DeskBox)
 `#csharp` · 2026-09-28
 A free, open-source Windows desktop organizer with native-feeling WinUI 3 widgets.
@@ -819,7 +867,7 @@ One-click right-click convert & compress on Windows (FFmpeg/ImageMagick).
 `#win11` `#fluent` `#system-tools` `#beautification` `#taskbar` · 2026-09-06
 Modern Fluent flyout replacement for Windows 11.
 
-## 十八. Files · Downloads · Photo Management (12)
+## 十八. Files · Downloads · Photo Management (14)
 
 ### [agalwood/Motrix](https://github.com/agalwood/Motrix)
 `#downloader` `#electron` `#aria2` `#docker` · 2026-08-18
@@ -853,6 +901,10 @@ Offline-first cross-platform open-source photo manager — the local, private al
 `#python` · 2026-09-29
 Self-hosted recipe manager and meal planner with a RestAPI backend and Vue frontend.
 
+### [pablostanley/yoinks](https://github.com/pablostanley/yoinks)
+`#typescript` · 2026-10-02
+Yoink any video from your terminal — no shady ads.
+
 ### [qbittorrent/search-plugins](https://github.com/qbittorrent/search-plugins)
 `#python` · 2026-10-01
 Search plugins for the qBittorrent search feature.
@@ -864,6 +916,10 @@ A launcher that downloads and updates applications from GitHub Releases.
 ### [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr)
 `#csharp` · 2026-09-28
 Smart PVR for newsgroup and bittorrent users.
+
+### [SteamRE/DepotDownloader](https://github.com/SteamRE/DepotDownloader)
+`#csharp` · 2026-10-02
+A Steam depot downloader built on the SteamKit2 library.
 
 ### [tgeorgiadis/quiver-launcher](https://github.com/tgeorgiadis/quiver-launcher)
 `#csharp` · 2026-09-30
@@ -1003,7 +1059,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (26)
+## 二十四. Developer Resources & Curated Lists (28)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1061,6 +1117,10 @@ We're not even close to "Wizden, but random" at this point.
 `#python` · 2026-09-30
 Harvard CS249r textbook 'Machine Learning Systems' (4 volumes: foundations, scaling, agentic & physical AI).
 
+### [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture)
+`#csharp` · 2026-10-02
+Clean Architecture Solution Template for ASP.NET Core.
+
 ### [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 `#open-source` · 2026-09-28
 Bootstrap Kubernetes the hard way.
@@ -1104,6 +1164,10 @@ CounterStrikeSharp allows you to write server plugins in C# for Counter-Strike 2
 ### [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
 `#python` · 2026-09-27
 Learn it.
+
+### [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
+`#python` · 2026-10-02
+100+ AI agents, agent skills and RAG apps — free and open source.
 
 ### [vercel/next.js](https://github.com/vercel/next.js)
 `#javascript` · 2026-09-27
